@@ -1,5 +1,13 @@
 # monitoreo-isa2
 
+## Dependencias del proyecto
+
+```sh
+dotnet add package OpenTelemetry.Extensions.Hosting
+dotnet add package OpenTelemetry.Exporter.OpenTelemetryProtocol
+dotnet add package OpenTelemetry.Instrumentation.AspNetCore
+```
+
 ## Instrucciones para ejecutar el proyecto
 
 1. Correr contenedores de docker
